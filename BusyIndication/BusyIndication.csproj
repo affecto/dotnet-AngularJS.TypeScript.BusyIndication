@@ -90,21 +90,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Styles\BusyIndication.css">
+    <Resource Include="Styles\BusyIndication.css">
       <DependentUpon>BusyIndication.scss</DependentUpon>
-    </Content>
-    <Content Include="Styles\BusyIndication.min.css">
+    </Resource>
+    <Resource Include="Styles\BusyIndication.min.css">
       <DependentUpon>BusyIndication.css</DependentUpon>
-    </Content>
+    </Resource>
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\angular.min.js.map" />
     <Content Include="packages.config" />
-    <Content Include="Styles\BusyIndication.scss" />
-    <Content Include="BusyIndication.nuspec" />
-    <Content Include="Styles\BusyIndication.css.map">
-      <DependentUpon>BusyIndication.css</DependentUpon>
+    <Resource Include="Styles\BusyIndication.scss" />
+    <Content Include="BusyIndication.nuspec">
+      <SubType>Designer</SubType>
     </Content>
+    <Resource Include="Styles\BusyIndication.css.map">
+      <DependentUpon>BusyIndication.css</DependentUpon>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\angular-mocks.js" />
