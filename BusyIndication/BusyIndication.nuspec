@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>$author$</authors>
+    <description>$description$</description>
+    <projectUrl>https://github.com/affecto/dotnet-AngularJS.TypeScript.BusyIndication</projectUrl>
+    <tags>affecto angular angularjs typescript busy indicator indication spinner wait animation</tags>
+    <releaseNotes>Moved to GitHub.</releaseNotes>
+    <dependencies>
+      <dependency id="Affecto.AngularJS.TypeScript.Base" version="2.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Scripts\BusyIndication\**\*.ts" target="content\App\Packages\BusyIndication"/>
+    <file src="Scripts\BusyIndication\Directives\BusyIndicator.html" target="content\App\Packages\BusyIndication\Directives"/>
+    <file src="Content\**\*.*" target="content\Content\Packages\BusyIndication"/>
+  </files>
+</package>
