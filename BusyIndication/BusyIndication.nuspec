@@ -7,7 +7,7 @@
     <description>$description$</description>
     <projectUrl>https://github.com/affecto/dotnet-AngularJS.TypeScript.BusyIndication</projectUrl>
     <tags>affecto angular angularjs typescript busy indicator indication spinner wait animation</tags>
-    <releaseNotes>Moved to GitHub.</releaseNotes>
+    <releaseNotes>Removed duplicate stylesheet files.</releaseNotes>
     <dependencies>
       <dependency id="Affecto.AngularJS.TypeScript.Base" version="2.0.0" />
     </dependencies>
@@ -15,6 +15,6 @@
   <files>
     <file src="Scripts\BusyIndication\**\*.ts" target="content\App\Packages\BusyIndication"/>
     <file src="Scripts\BusyIndication\Directives\BusyIndicator.html" target="content\App\Packages\BusyIndication\Directives"/>
-    <file src="Content\**\*.*" target="content\Content\Packages\BusyIndication"/>
+    <file src="Styles\**\*.*" target="content\Content\Packages\BusyIndication"/>
   </files>
 </package>

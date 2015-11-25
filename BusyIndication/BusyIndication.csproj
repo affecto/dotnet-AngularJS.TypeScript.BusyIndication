@@ -90,25 +90,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\BusyIndication.css">
+    <Content Include="Styles\BusyIndication.css">
       <DependentUpon>BusyIndication.scss</DependentUpon>
     </Content>
-    <Content Include="Content\BusyIndication.min.css">
+    <Content Include="Styles\BusyIndication.min.css">
       <DependentUpon>BusyIndication.css</DependentUpon>
     </Content>
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\angular.min.js.map" />
     <Content Include="packages.config" />
-    <Content Include="Content\BusyIndication.scss" />
+    <Content Include="Styles\BusyIndication.scss" />
     <Content Include="BusyIndication.nuspec" />
-    <Content Include="Content\BusyIndication.css.map">
+    <Content Include="Styles\BusyIndication.css.map">
       <DependentUpon>BusyIndication.css</DependentUpon>
     </Content>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\angular-mocks.js" />
-    <Content Include="Scripts\BusyIndication\Directives\BusyIndicator.html" />
+    <Resource Include="Scripts\BusyIndication\Directives\BusyIndicator.html" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -153,7 +153,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>50026</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
